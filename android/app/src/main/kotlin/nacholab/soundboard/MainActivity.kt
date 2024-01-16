@@ -1,4 +1,4 @@
-package com.example.nacholab_soundboard
+package nacholab.soundboard
 
 import io.flutter.embedding.android.FlutterActivity
 
