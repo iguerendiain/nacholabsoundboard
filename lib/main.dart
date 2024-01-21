@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromRGBO(35, 45, 85, 1))
       ),
-      home: const MyHomePage()
+      home: const MainScreen()
     );
   }
 }

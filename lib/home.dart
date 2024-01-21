@@ -4,14 +4,14 @@ import 'api.dart' as api;
 import 'main_appbar.dart';
 import 'audioclip_list_future_handler.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class MainScreen extends StatefulWidget {
+  const MainScreen({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MainScreen> createState() => _MainScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MainScreenState extends State<MainScreen> {
   late Future<Iterable<NGinxJsonFileListItem>> audioclips;
 
   @override
